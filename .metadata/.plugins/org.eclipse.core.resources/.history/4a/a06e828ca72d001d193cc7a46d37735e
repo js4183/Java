@@ -1,0 +1,23 @@
+package Controller;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+import Model.MemberDAO;
+import Model.MovieList;
+import Model.MovieListDAO;
+
+public class movieController {
+	public static void start(int lv, String nick) {
+		Scanner sc = new Scanner(System.in);
+		MemberDAO Member = new MemberDAO();
+		MovieListDAO Movie = new MovieListDAO();
+		
+		ArrayList<MovieList> ml = Movie.movieList(lv);
+		int score = 0; //점수누적
+		
+		Collections.shuffle(ml);
+		
+	}
+}

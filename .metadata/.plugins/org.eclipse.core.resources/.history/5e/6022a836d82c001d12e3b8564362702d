@@ -1,0 +1,23 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import controller.movieCon;
+import javazoom.jl.player.MP3Player;
+import model.user;
+
+public class view {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		MP3Player mp3 = new MP3Player();
+		int index = 0;
+		int result = 0;
+		movieCon mc = new movieCon();
+		
+		mp3.play(null);
+
+		
+	}
+}

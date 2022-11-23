@@ -1,0 +1,49 @@
+package View;
+
+import java.io.InputStreamReader;
+
+import java.io.BufferedReader;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		Scanner sc = new Scanner(System.in);
+//
+//		System.out.println("╱◥▦◣\r\n" + "│  田 │ 田│ \\\r\n" + "");
+//
+//		while (true) {
+//			System.out.print(".   ᕱ  ᕱ ♡ [1]회원가입 ‧₊˚ ✩\r\n"
+//					+ "（ ｡•ᴗ•｡)づ__^ [2]로그인 ˳\r\n"
+//					+ "（つ    /  ( •́‧̫•̀ ｡) ♡ [3]종 료 \r\n"
+//					+ " しーＪ ( ノ   )\r\n"
+//					+ "");
+//			int menu = sc.nextInt();
+//
+//			if (menu == 1) {
+//				System.out.println("＿人人人人人人人人＿\r\n" + "＞　　가입 성공！ 　＜\r\n" + "￣^Y^Y^Y^Y^Y^Y^Y￣\r\n" + "");
+//			} else if (menu == 2) {
+//				System.out.println("＼●　 ●＿　　＼●　 　＜●〉　* ● *\r\n"
+//						+ "　/>　 <│　　　/∨　　　│ 　 * √1∨*\r\n"
+//						+ "<＼　　∠＼　　/>　　　 〈〉　 * /＼*\r\n"
+//						+ "게임 플레이~ 활기차게 발랄하게~ 오예~~!!! ^^\r\n"
+//						+ "");
+//			} else if(menu == 3) {
+//				System.out.println(".∧＿∧　　　　∧＿∧\r\n"
+//						+ "(*･ω･ヾ⌒∨⌒ヽ･ω･*)\r\n"
+//						+ "( 　 ⊃( 갈꺼야 ? )⊂ 　)\r\n"
+//						+ "(＿＿⊃＼_ _／⊂＿＿)\r\n"
+//						+ "");
+//				break;
+//			}
+//		}
+
+		System.out.println("Hello java!");
+
+		
+		
+	}
+	
+
+}

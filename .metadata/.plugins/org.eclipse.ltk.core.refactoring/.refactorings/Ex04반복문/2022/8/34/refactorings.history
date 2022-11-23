@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;조건문반복문&apos; to &apos;Ex05조건문반복문예제/src&apos;&#x0D;&#x0A;- Original project: &apos;Ex04반복문&apos;&#x0D;&#x0A;- Destination element: &apos;Ex05조건문반복문예제/src&apos;&#x0D;&#x0A;- Original element: &apos;Ex04반복문/src/조건문반복문&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Ex05조건문반복문예제/src" element1="/src&lt;조건문반복문" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1660695800631" version="1.0"/>
+</session>

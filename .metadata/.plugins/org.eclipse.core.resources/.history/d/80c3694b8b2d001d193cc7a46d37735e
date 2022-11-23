@@ -1,0 +1,11 @@
+package model;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class MovieListDAO {
+	Connection conn = null;
+	PreparedStatement psmt = null;
+	ResultSet rs = null;
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Ex12&apos; to &apos;Ex12상속&apos;" description="Rename resource &apos;Ex12&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Ex12" name="Ex12상속" stamp="1661408276931" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Ex배열_메소드&apos; to &apos;Ex09배열_메소드&apos;" description="Rename resource &apos;Ex배열_메소드&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Ex배열_메소드" name="Ex09배열_메소드" stamp="1661485137620" updateReferences="true"/>
+</session>

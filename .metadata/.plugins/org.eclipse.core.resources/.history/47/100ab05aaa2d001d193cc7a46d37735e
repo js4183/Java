@@ -1,0 +1,59 @@
+package Controller;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import Model.MemberDAO;
+import Model.MovieList;
+import Model.MovieListDAO;
+import javazoom.jl.player.MP3Player;
+
+public class movieController {
+
+	public static void start(String lv) {
+		Scanner sc = new Scanner(System.in);
+		MemberDAO Member = new MemberDAO();
+		MovieListDAO Movie = new MovieListDAO();
+		MP3Player mp3 = new MP3Player();
+
+		ArrayList<MovieList> ml = Movie.movieList(lv);
+		int score = 0;
+
+		public void play(int index) {
+			// 노래 재생을 위한 메소드
+			// 호출 시 musicList에 있는 노래를 play
+
+			if (mp3.isPlaying()) { // 실행되는 노래가 있다면 멈추가 다시 재생
+				mp3.stop();
+			}
+			mp3.play(movieList.get(index).getMoviePath());
+		}
+		
+		// 인덱스 랜덤 출력
+		public void indexNum() {
+			for (int i = 0; i < indexList.length; i++) {// 뽑을때부터 중복이 안되게
+				indexList[i] = rd.nextInt(15) + 1;// 이전에 뽑은 랜덤 값 지금 뽑은 랜덤 값 일치하는지 확인하는 반복문
+				for (int j = 0; j < i; j++) {
+					if (indexList[i] == indexList[j]) {// 값이 같으면 다시 뽑게 ->i번째 숫자를 다시 뽑기
+						i--;
+						break;
+					}
+				}
+			}
+		}
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(ml.get(i).getName());
+			System.out.println(ml.get(i).getGrade());
+			int rscore = 0;
+			int cnt = 0;
+			
+			while(true) {
+				System.out.println("[1]정답입력 [2]힌트보기");
+				sc.nextInt();
+				System.out.print("");
+			}
+		}
+	}
+
+}

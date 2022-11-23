@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;num2&apos; in &apos;변수.Ex01변수선언.main(...)&apos; to &apos;num3&apos;&#x0D;&#x0A;- Original project: &apos;Ex01변수와입출력&apos;&#x0D;&#x0A;- Original element: &apos;변수.Ex01변수선언.main(String[]).num2&apos;&#x0D;&#x0A;- Renamed element: &apos;num2&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;num2&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;변수{Ex01변수선언.java[Ex01변수선언~main~\[QString;@num2!293!305!297!300!I!0!false" name="num3" references="true" stamp="1659507916360" version="1.0"/>
+</session>

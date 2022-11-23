@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="E05.Pocketmon"/>
+    <fullyQualifiedTypeName name="큐.ArrayQr.EmptyQueueException"/>
+    <fullyQualifiedTypeName name="큐.LinkedListQueue.EmptyQueueException"/>
+    <fullyQualifiedTypeName name="Ex03.PartTimeEmployee"/>
+    <fullyQualifiedTypeName name="Ex01.OperatorGame"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="oracle.jdbc.driver.OracleDriver"/>
+    <fullyQualifiedTypeName name="oracle.jdbc.connector.OracleConnectionManager"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="쓰레드활용.Blitzcrank"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="채팅프로그램.WritingThread"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="controller.movieCon"/>
+</qualifiedTypeNameHistroy>

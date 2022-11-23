@@ -1,0 +1,25 @@
+package while문;
+
+import java.util.Scanner;
+
+public class Ex01예제3 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = 0;
+		int n1 = 0;//홀수
+		int n2 = 0;//짝수
+		
+		while(num !=-1) {
+			num = sc.nextInt();
+			if(num%2==0) {
+				++n2;
+			}else {
+				++n1;
+			}
+		}
+
+	}
+
+}

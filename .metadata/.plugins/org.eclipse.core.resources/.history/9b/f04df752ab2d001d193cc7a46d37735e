@@ -1,0 +1,32 @@
+package Controller;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
+import Model.MemberDAO;
+import Model.MovieList;
+import Model.MovieListDAO;
+import javazoom.jl.player.MP3Player;
+
+public class movieController {
+
+	public static void mlist() {
+		Scanner sc = new Scanner(System.in);
+		MemberDAO Member = new MemberDAO();
+		MovieListDAO Movie = new MovieListDAO();
+		MP3Player mp3 = new MP3Player();
+
+		ArrayList<MovieList> ml = Movie.movieList(lv);
+		int score = 0;
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println(ml.get(i).getName());
+			System.out.println(ml.get(i).getGrade());
+			int rscore = 0;
+			int cnt = 0;
+			}
+		}
+	}
+
+}

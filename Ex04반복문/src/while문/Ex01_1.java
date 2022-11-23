@@ -1,0 +1,22 @@
+package while문;
+
+import java.util.Scanner;
+
+public class Ex01_1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+//		if(num<10) {
+//			int num2 = sc.nextInt();
+//		} ....
+		
+		while(num<10) {
+			num = sc.nextInt();
+		}
+	}
+
+}

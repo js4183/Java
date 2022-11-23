@@ -1,0 +1,22 @@
+package view;
+
+import java.util.Scanner;
+
+import controller.movieCon;
+import javazoom.jl.player.MP3Player;
+
+public class view {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		int index = 0;
+
+		int result = 0;
+		
+		movieCon mc = new movieCon();
+
+		mc.play();
+		System.out.print(mc.toString());
+	}
+}
